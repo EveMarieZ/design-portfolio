@@ -19,6 +19,7 @@
   <link rel="stylesheet" href="css/main.css">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css">
+  <!--[if (lt IE 9)]><script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/min/tiny-slider.helper.ie8.js"></script><![endif]-->
 </head>
 
 <body>
@@ -67,9 +68,7 @@
         <section id="portfolio">
           <h2 class="t-h1">Web projects</h2>
           <div class="my-slider">
-            <div class="slider-block">
-
-            </div>
+            <div class="slider-block"> Your Content </div>
             <div class="slider-block"> Your Content </div>
             <div class="slider-block"> Your Content </div>
             <div class="slider-block"> Your Content </div>
@@ -93,18 +92,28 @@
           
         </section>
     </main>
-    <footer>
-
-    </footer>
+    <footer></footer>
 
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
-  <script src="jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+  
+  <script type="module">
+    import {tns} from './src/tiny-slider.js';
+  
+    var slider = tns({
+      container: ".my-slider",
+      items: 2,
+      center: true,
+      loop: false,
+      swipeAngle: false,  
+      speed: 400
+    });
+    </script>
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>

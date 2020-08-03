@@ -177,10 +177,10 @@ nav ul li a {
 /***** PORTFOLIO *****/
 
 .slider-block {
-    width: 50px;
+    width: 200px;
     height: 50px;
     background-color: pink;
-    padding: 20px;
+    margin: 20px;
 }
 
 
