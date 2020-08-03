@@ -109,16 +109,6 @@ body {
 	min-height: 768px;
 }
 
-h1, h2, h3 {
-	font-family: 'Playfair Display', serif;
-}
-
-p {
-	font-family: 'Lato', sans-serif;
-	font-weight: 300;
-	line-height: 30px;
-}
-
 a:hover { 
 
 }
@@ -128,7 +118,42 @@ a {
 	color: black;
 }
 
+.base-section {
+    max-width: 1600px;
+    width: 100%;
+    margin: 30px;
+}
+
+/***** TYPOGRAPHY *****/
+
+h1, h2, h3 {
+	font-family: 'Playfair Display', serif;
+}
+
+.t-h1 {
+    font-size: 3rem;
+}
+
+.t-h2 {
+    font-size: 2rem;
+}
+
+p {
+	font-family: 'Lato', sans-serif;
+	font-weight: 300;
+	line-height: 30px;
+}
+
+.u-uppercase {
+    text-transform: uppercase;
+}
+
+.u-text-center {
+    text-align: center;
+}
+
 /***** GRID *****/
+
 .full-width{
 	width: 100%;
 	margin: 0 auto;
@@ -142,6 +167,22 @@ a {
 .third-width{
 	width: 33.333%;
 	float: left;
+}
+
+.quarter-width {
+    width: 25%;
+    float: left;
+    margin: 0 20px;
+}
+
+/****** FLEX *****/
+
+.u-flex {
+    display: flex;
+}
+
+.u-justify-content-center {
+    justify-content: center;
 }
 
 /****** HEADER ******/
@@ -158,10 +199,6 @@ nav ul li a {
     text-decoration: none;
     font-size: 24px;
     color: #000000;
-}
-
-#big-title {
-	font-size: 3rem;
 }
 
 /***** ABOUT *****/

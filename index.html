@@ -31,42 +31,46 @@
     <header>
         <nav>
           <ul>
-            <li>About</li>
-            <li>Services</li>
-            <li>Portfolio</li>
-            <li>Contact</li>
+            <a href="#about"><li class="u-uppercase">About</li></a>
+            <a href="#services"><li class="u-uppercase">Services</li></a>
+            <a href="#portfolio"><li class="u-uppercase">Portfolio</li></a>
+            <a href="#contact"><li class="u-uppercase">Contact</li></a>
           </ul>
         </nav>
     </header>
     <main>
-        <section id="hero">
+        <section class="base-section" id="hero">
           <h1 style="display: none;">Eve Zaunbrecher Web Designer</h1>
-          <h2 class="t-h1" id="big-title">Hi! My name is Eve. I’m a web designer, developer, &amp; design historian.</h2>
+          <h2 class="t-h1">Hi! My name is Eve. I’m a web designer, developer, &amp; design historian.</h2>
           <p>I studied History of Design at the <a href="https://rca.ac.uk"><strong>Royal College of Art</strong></a> in <strong>London</strong>, and wrote my MA dissertation on eighteenth-century French harps. They are beautiful and outrageous. After my journey into this world of rococo nonsense, I learned to code with Skillcrush and am currently scheming with other harp nerds to create a comprehensive <strong>harp research repository</strong>. Most recently, I worked as a web designer for <strong>Stuller</strong>, the largest fine jewelry manufacturer in North America. I just really love sparkly gold things!</p>
           <p>Find my work on <strong>BeHance</strong> or you can get out your fanciest quill pen and <strong>write to me</strong>.</p>
         </section>
-        <section id="services">
-          <h2 class="t-h1">What I can do</h2> 
-          <div>
-            <h3>Web Design</h3>
-            <p>Design is first because it is my favorite. From initial concept through wireframes, mockups, and final designs, I love to create elegant and intuitive designs for websites and digital marketing. Figma is my everything!</p>
+        <section class="base-section" id="services">
+          <h2 class="t-h1 u-text-center">What I can do</h2> 
+          <div class="u-flex u-flex-center">
+            <div class="quarter-width">
+              <h3>Web Design</h3>
+              <p>Design is first because it is my favorite. From initial concept through wireframes, mockups, and final designs, I love to create elegant and intuitive designs for websites and digital marketing. Figma is my everything!</p>
+            </div>
+            <div class="quarter-width">
+              <h3>Front-End Development</h3>
+              <p>I code websites by hand with HTML, CSS, and basic JavaScript. I can also create custom Wordpress sites with basic PHP. Right now I work with frameworks like Bootstrap, Vue.js, and Nuxt.js. </p>
+            </div>
           </div>
-          <div>
-            <h3>Front-End Development</h3>
-            <p>I code websites by hand with HTML, CSS, and basic JavaScript. I can also create custom Wordpress sites with basic PHP. Right now I work with frameworks like Bootstrap, Vue.js, and Nuxt.js. </p>
-          </div>
-          <div>
-            <h3>Historical Research</h3>
-            <p>I have a BA in History and MA in History of Design with a special emphasis on research and writing. I can perform research for individuals and institutions, and have experience writing for museum exhibitions and history blogs.</p>
-          </div>
-          <div>
-            <h3>Harp Talks</h3>
-            <p>If you are lucky enough to have an early pedal harp (1700-1800), I would love to tell you more about it! I do lectures and consultations about the early pedal harp and have spoken at the Victoria and Albert Museum, Philadelphia Museum of Art, and the Deustches Museum, Munich. </p>
+          <div class="u-flex u-flex-center">
+            <div class="quarter-width">
+              <h3>Historical Research</h3>
+              <p>I have a BA in History and MA in History of Design with a special emphasis on research and writing. I can perform research for individuals and institutions, and have experience writing for museum exhibitions and history blogs.</p>
+            </div>
+            <div class="quarter-width">
+              <h3>Harp Talks</h3>
+              <p>If you are lucky enough to have an early pedal harp (1700-1800), I would love to tell you more about it! I do lectures and consultations about the early pedal harp and have spoken at the Victoria and Albert Museum, Philadelphia Museum of Art, and the Deustches Museum, Munich. </p>
+            </div>
           </div>
         </section>
 
-        <section id="portfolio">
-          <h2 class="t-h1">Web projects</h2>
+        <section class="base-section" id="portfolio">
+          <h2 class="t-h1 u-text-center">Web projects</h2>
           <div class="my-slider">
             <div class="slider-block"> Your Content </div>
             <div class="slider-block"> Your Content </div>
@@ -78,7 +82,7 @@
           </div>
         </section>
 
-        <section id="research">
+        <section class="base-section" id="research">
           <h2 class="t-h1">Coming soon!</h2>
           <div class="half-width">
             <img src="" alt="">
@@ -87,7 +91,7 @@
             <p>Harp research description here.</p>
           </div>
         </section>
-        <section id="contact">
+        <section class="base-section" id="contact">
           <h2 class="t-h1">Let's chat</h2>
           
         </section>
@@ -113,7 +117,7 @@
       swipeAngle: false,  
       speed: 400
     });
-    </script>
+  </script>
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
