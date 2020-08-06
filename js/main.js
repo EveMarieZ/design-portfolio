@@ -1,6 +1,8 @@
  // FIX THIS IT ISN'T CATCHING THE RIGHT CLASS
 <script>
-  $('.carousel').carousel(){
-    autoplay: false,
+  $(document).ready(function () {
+  $('.carousel').carousel({
+    interval: 3000
   });
+});
 </script>
