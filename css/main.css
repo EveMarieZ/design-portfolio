@@ -106,7 +106,7 @@ body {
 }
 
 #about, #services, #portfolio, #contact{
-	min-height: 768px;
+	min-height: 300px;
 }
 
 a:hover { 
@@ -121,7 +121,7 @@ a {
 /***** TYPOGRAPHY *****/
 
 h1, h2, h3 {
-	font-family: 'Playfair Display', serif;
+	font-family: 'Playfair Display', serif!important;
 }
 
 .t-h1 {
@@ -146,36 +146,7 @@ p {
     text-align: center;
 }
 
-/***** GRID *****/
-
-.full-width{
-	width: 100%;
-	margin: 0 auto;
-}
-
-.half-width{
-	width: 50%;
-	float: left;
-}
-
-.third-width{
-	width: 33.333%;
-	float: left;
-}
-
-.quarter-width {
-    width: 25%;
-    float: left;
-    margin: 0 20px;
-}
-
-.base-section {
-    max-width: 1600px;
-    width: 100%;
-    margin: 30px;
-}
-
-/****** FLEX *****/
+/****** FLEX UTILITIES *****/
 
 .u-flex {
     display: flex;
@@ -198,7 +169,7 @@ nav ul li a {
     text-transform: uppercase;
     text-decoration: none;
     font-size: 24px;
-    color: #000000;
+    color: #000000!important;
 }
 
 /***** ABOUT *****/
