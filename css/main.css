@@ -205,6 +205,12 @@ nav ul li a {
     transform-origin: 100% 100%;
   }
 
+  /***** RESEARCH *****/
+
+  #research {
+      height: 500px;
+      background-color: pink;
+  }
 
 
 /* ==========================================================================
