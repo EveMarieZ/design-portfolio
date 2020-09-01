@@ -109,18 +109,43 @@ body {
 	min-height: 300px;
 }
 
+/***** SPACING UTILITIES *****/
+
 .hero-padding {
     margin: 120px 0px 120px;
 }
 
-.section-padding {
-    padding: 30px 0 30px;
+.u-padding-top-60 {
+    padding-top: 60px;
 }
 
-.nav-link {
-    font-family: 'Lato', sans-serif!important;
-    text-transform: uppercase;
-    font-weight: 300;
+.u-margin-top-30 {
+    margin-top: 30px;
+}
+
+.u-margin-right-30 {
+    margin-right: 30px;
+}
+
+.u-margin-left-30 {
+    margin-left: 30px; 
+}
+
+.u-margin-bottom-30 {
+    margin-bottom: 30px
+}
+
+.u-margin-top-60 {
+    margin-top: 60px;
+}
+
+.u-margin-bottom-60 {
+    margin-bottom: 60px;
+}
+
+.u-margin-vertical-60 {
+    margin-top: 60px;
+    margin-bottom: 60px;
 }
 
 /***** TYPOGRAPHY *****/
@@ -146,7 +171,7 @@ p {
 
 a {
     position: relative;
-    color: #a13e97!important;
+    color: black!important;
 }
 
 a:after {
@@ -155,7 +180,7 @@ a:after {
     bottom: -3px;
     left: 0;
     width: 0%;
-    border-bottom: 2px solid #a13e97;
+    border-bottom: 3px solid pink;
     transition: 0.5s;
 }
 
@@ -189,6 +214,11 @@ a:hover:after {
     justify-content: center;
 }
 
+.u-flex-center {
+    justify-content: center;
+    align-items: center;
+}
+
 /****** HEADER ******/
 
 nav ul li {
@@ -205,7 +235,19 @@ nav ul li a {
     color: #000000!important;
 }
 
+.nav-link {
+    font-family: 'Lato', sans-serif!important;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
 /****** SERVICES *****/
+
+.services-box {
+    border: 3px solid pink;
+    border-radius: 50px;
+    padding: 40px!important;
+}
 
 #heart {
     position: relative;
@@ -221,7 +263,7 @@ nav ul li a {
     top: 0;
     width: 50px;
     height: 80px;
-    background: #a13e97;
+    background: pink;
     border-radius: 50px 50px 0 0;
     transform: rotate(-45deg);
     transform-origin: 0 100%;
@@ -234,15 +276,13 @@ nav ul li a {
 
   /***** PORTFOLIO *****/
 
-  .portfolio-spacing {
-      margin: 60px 0px 60px;
-  }
+
 
   /***** RESEARCH *****/
 
   #research {
       height: 500px;
-      background-color: #d3b7d8;
+      background-color: pink;
   }
 
 
