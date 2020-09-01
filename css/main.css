@@ -117,11 +117,6 @@ body {
     padding: 30px 0 30px;
 }
 
-a {
-    color: black!important;
-    font-family: 'Lato', sans-serif;
-}
-
 .nav-link {
     font-family: 'Lato', sans-serif!important;
     text-transform: uppercase;
@@ -147,6 +142,29 @@ p {
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
 	line-height: 30px;
+}
+
+a {
+    position: relative;
+    color: #a13e97!important;
+}
+
+a:after {
+    content: '';
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0%;
+    border-bottom: 2px solid #a13e97;
+    transition: 0.5s;
+}
+
+a:hover {
+    text-decoration: none!important;
+}
+
+a:hover:after {
+    width: 100%;
 }
 
 .purple-1 {
@@ -212,6 +230,12 @@ nav ul li a {
     left: 0;
     transform: rotate(45deg);
     transform-origin: 100% 100%;
+  }
+
+  /***** PORTFOLIO *****/
+
+  .portfolio-spacing {
+      margin: 60px 0px 60px;
   }
 
   /***** RESEARCH *****/
