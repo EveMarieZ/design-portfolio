@@ -155,9 +155,14 @@ h1, h2, h3 {
 	font-family: 'Playfair Display', serif!important;
 }
 
+.t-lato {
+    font-family: 'Lato', sans-serif!important;
+}
+
 .t-h1 {
     font-size: 3rem;
     padding-bottom: 30px;
+    font-family: 'Playfair Display', serif!important;
 }
 
 .t-h2 {
@@ -193,10 +198,6 @@ a:hover:after {
     width: 100%;
 }
 
-.purple-1 {
-    color: #a13e97!important;
-}
-
 .u-uppercase {
     text-transform: uppercase;
 }
@@ -215,9 +216,35 @@ a:hover:after {
     justify-content: center;
 }
 
+.u-align-items-center {
+    align-items: center;
+}
+
 .u-flex-center {
     justify-content: center;
     align-items: center;
+}
+
+.u-flex-column {
+    flex-direction: column;
+}
+
+/****** COLORS ******/
+
+.bg-shocking-pink {
+    background-color:#FF69EB;
+}
+.bg-persian-pink {
+    background-color:#FF86C8;
+}
+.bg-salmon-pink {
+    background-color:#FFA3A5;
+}
+.bg-mellow-apricot {
+    background-color:#FFBF81;
+}
+.bg-mustard {
+    background-color:#FFDC5E;
 }
 
 /****** HEADER ******/
@@ -242,8 +269,28 @@ nav ul li a {
     font-weight: 300;
 }
 
+#header-list {
+    list-style: none;
+}
+
+.header-circle {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0px 20px 10px 0px;
+}
+
+.header-text {
+    font-size: 3rem;
+    font-family: 'Playfair Display', serif!important;
+}
 
 /****** SERVICES *****/
+
+#services {
+    background-color: pink;
+}
 
 #heart {
     position: relative;
@@ -273,6 +320,14 @@ nav ul li a {
   .services-list {
       list-style:none;
       text-decoration: none;
+  }
+
+  .services-circle {
+    height: 100px;
+    width: 100px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: inline-block;
   }
 
 
