@@ -172,7 +172,6 @@ h1, h2, h3 {
 p {
 	font-family: 'Lato', sans-serif;
 	font-weight: 300;
-	line-height: 30px;
 }
 
 a {
@@ -286,49 +285,33 @@ nav ul li a {
     font-family: 'Playfair Display', serif!important;
 }
 
+.arrow-icon {
+    color: #FF86C8;
+}
+
 /****** SERVICES *****/
 
 #services {
-    background-color: pink;
+    background: url(../img/services-background.svg) no-repeat;
+    min-height: 1020px;
 }
 
-#heart {
-    position: relative;
-    width: 100px;
-    height: 90px;
-    margin: auto;
-  }
-  #heart:before,
-  #heart:after {
-    position: absolute;
-    content: "";
-    left: 50px;
-    top: 0;
-    width: 50px;
-    height: 80px;
-    background: pink;
-    border-radius: 50px 50px 0 0;
-    transform: rotate(-45deg);
-    transform-origin: 0 100%;
-  }
-  #heart:after {
-    left: 0;
-    transform: rotate(45deg);
-    transform-origin: 100% 100%;
-  }
+.services-heading {
+    padding-top: 200px;
+}
 
-  .services-list {
-      list-style:none;
-      text-decoration: none;
-  }
+.services-list {
+    list-style:none;
+    text-decoration: none;
+}
 
-  .services-circle {
+.services-circle {
     height: 100px;
     width: 100px;
     background-color: #fff;
     border-radius: 50%;
     display: inline-block;
-  }
+}
 
 
  /***** PORTFOLIO *****/
