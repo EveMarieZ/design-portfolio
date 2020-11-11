@@ -305,22 +305,12 @@ nav ul li a {
     text-decoration: none;
 }
 
-.services-circle {
-    height: 100px;
-    width: 100px;
-    background-color: #fff;
-    border-radius: 50%;
-    display: inline-block;
+.services-gifs {
+    position: absolute;
 }
 
 
  /***** PORTFOLIO *****/
-
- .arrow1 {
-    animation: slide1 1s ease-in-out infinite;
-    margin-left: 5px;
-    color: black;
-  }
 
   .arrow-container {
         width: 100px;
@@ -328,25 +318,20 @@ nav ul li a {
         position: relative;
   }
 
-@keyframes slide1 {
-    0%,
-    100% {
-        transform: translate(0, 0);
-    }
-
-    50% {
-        transform: translate(10px, 0);
-    }
-}
-
   /***** RESEARCH *****/
 
   #research {
       height: 500px;
-      background-color: pink;
+      background: url(../img/harps-background.svg) no-repeat center right;
+      background-size: contain;
   }
 
   /***** CONTACT *****/
+
+  #contact {
+      background: url(../img/contact-background.svg) no-repeat center bottom;
+      background-size: cover;
+  }
 
   .social-icons {
       font-size: 2rem;
