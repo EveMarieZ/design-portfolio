@@ -160,7 +160,7 @@ h1, h2, h3 {
 }
 
 .t-h1 {
-    font-size: 3rem;
+    font-size: 4rem;
     padding-bottom: 30px;
     font-family: 'Playfair Display', serif!important;
 }
@@ -191,10 +191,6 @@ a:after {
 
 a:hover {
     text-decoration: none!important;
-}
-
-a:hover:after {
-    width: 100%;
 }
 
 .u-uppercase {
@@ -292,7 +288,7 @@ nav ul li a {
 /****** SERVICES *****/
 
 #services {
-    background: url(../img/services-background.svg) no-repeat;
+    background: url(../img/services-background.svg) no-repeat center top;
     min-height: 1020px;
 }
 
@@ -333,9 +329,16 @@ nav ul li a {
       background-size: cover;
   }
 
-  .social-icons {
+  .sm-icons {
       font-size: 2rem;
-      margin: 10px;
+      margin: .5rem;
+  }
+
+  .sm-list a:hover{
+      transition: opacity, .4s;
+      opacity: .4;
+  }
+
   }
 
 
