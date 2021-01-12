@@ -79,7 +79,25 @@
                 </div>
               </div>
               <div class="col-xs-12 u-margin-vertical-30">
-                <img src="img/ee-Page.png" class="img-fluid projects-img" alt="First Project">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="img/ee-Page.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/ee-Page.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="img/ee-Page.png" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+                  <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                  </ol>
+                </div>
+                </div>
               </div>
             </div>
           </div>
@@ -89,11 +107,19 @@
           <div class="container">
             <div class="row">
               <div class="col">
-                <p class="u-text-center">Copyright 2021 &copy; Eve Zaunbrecher</p>
+                <h2 class="t-h2 projects-heading">about</h2>
+                  <p>I’m an academic-turned-coder who loves elegant and joyful design. In a previous life, I wrote about the design history of 18th century harps at the Royal College of Art.  Most recently, I worked as a web designer for Stuller, North America’s largest jewelry manufacturer. I seek inspiration from early modern Europe and the natural world.</p>
+
+                  <p>When I am away from my computer, I take care of my herb garden try to live in harmony with the seasons. For the past few years I have also studied tarot and astrology, and give readings regularly. Understanding patterns and systems in nature helps me to translate them in technology!</p>
         </section>
 
     </main>
-    <footer></footer>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <p class="u-text-center">Copyright 2021 &copy; Eve Zaunbrecher</p>
+    </footer>
 
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
@@ -110,6 +136,7 @@
     ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
   </script>
   <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+
 </body>
 
 </html>
