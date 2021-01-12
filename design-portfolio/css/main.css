@@ -106,47 +106,18 @@ body {
 }
 
 #about, #services, #portfolio, #contact{
-	min-height: 300px;
+	min-height: 18.75rem;
+}
+
+ul {
+    padding-left: 0rem!important;
 }
 
 /***** SPACING UTILITIES *****/
 
 .hero-padding {
-    margin-top: 200px;
-    margin-bottom: 200px;
-}
-
-.u-padding-top-60 {
-    padding-top: 60px;
-}
-
-.u-margin-top-30 {
-    margin-top: 30px;
-}
-
-.u-margin-right-30 {
-    margin-right: 30px;
-}
-
-.u-margin-left-30 {
-    margin-left: 30px; 
-}
-
-.u-margin-bottom-30 {
-    margin-bottom: 30px
-}
-
-.u-margin-top-60 {
-    margin-top: 60px;
-}
-
-.u-margin-bottom-60 {
-    margin-bottom: 60px;
-}
-
-.u-margin-vertical-60 {
-    margin-top: 60px;
-    margin-bottom: 60px;
+    margin-top: 6.25rem;
+    margin-bottom: 3.125rem;
 }
 
 /***** TYPOGRAPHY *****/
@@ -161,12 +132,16 @@ h1, h2, h3 {
 
 .t-h1 {
     font-size: 4rem;
-    padding-bottom: 30px;
+    padding-bottom: 1.875rem;
     font-family: 'Playfair Display', serif!important;
 }
 
 .t-h2 {
     font-size: 2rem;
+}
+
+.t-h3 {
+    font-size: 1.2rem;
 }
 
 p {
@@ -246,81 +221,40 @@ a:hover {
 
 nav ul li {
     display: inline-block;
-    text-align: right;
-    padding: 20px 30px;
+    padding: 1.25rem 1.875rem 0rem 0rem;
 }
 
 nav ul li a {
-	font-family: 'Lora', sans-serif;
-    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
     text-decoration: none;
-    font-size: 24px;
     color: #000000!important;
 }
 
-.nav-link {
-    font-family: 'Lato', sans-serif!important;
-    text-transform: uppercase;
-    font-weight: 300;
+ /***** PROJECTS *****/
+ 
+.projects-heading {
+    margin-bottom: 2rem;
 }
 
-#header-list {
-    list-style: none;
+.projects-text {
+    margin-bottom: 2.5rem;
 }
 
-.header-circle {
-    height: 70px;
-    width: 70px;
-    border-radius: 50%;
-    display: inline-block;
-    margin: 0px 20px 10px 0px;
+.projects-img {
+    margin-bottom: 2.5rem;
 }
 
-.header-text {
-    font-size: 3rem;
-    font-family: 'Playfair Display', serif!important;
-}
-
-.arrow-icon {
-    color: #FF86C8;
-}
-
-/****** SERVICES *****/
-
-#services {
-    background: url(../img/services-background.svg) no-repeat center top;
-    min-height: 1020px;
-}
-
-.services-heading {
-    padding-top: 200px;
-}
-
-.services-list {
-    list-style:none;
-    text-decoration: none;
-}
-
-.services-gifs {
-    position: absolute;
+.arrow-container {
+    width: 6.25rem;
+    height: 3.125rem;
+    position: relative;
 }
 
 
- /***** PORTFOLIO *****/
+  /***** ABOUT *****/
 
-  .arrow-container {
-        width: 100px;
-        height: 50px;
-        position: relative;
-  }
-
-  /***** RESEARCH *****/
-
-  #research {
-      height: 500px;
-      background: url(../img/harps-background.svg) no-repeat center right;
-      background-size: contain;
-  }
+ 
 
   /***** CONTACT *****/
 
@@ -337,8 +271,6 @@ nav ul li a {
   .sm-list a:hover{
       transition: opacity, .4s;
       opacity: .4;
-  }
-
   }
 
 
