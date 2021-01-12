@@ -100,7 +100,7 @@ textarea {
 /***** BASE STYLES *****/
 
 body {
-	font-family: 'Playfair Display', serif;
+	font-family: 'Prata', serif;
 	font-family: 'Lato', sans-serif;
 	font-size: 16px;
 }
@@ -116,7 +116,7 @@ ul {
 /***** TYPOGRAPHY *****/
 
 h1, h2, h3 {
-	font-family: 'Playfair Display', serif!important;
+	font-family: 'Prata', serif!important;
 }
 
 .t-lato {
@@ -124,9 +124,9 @@ h1, h2, h3 {
 }
 
 .t-h1 {
-    font-size: 4rem;
+    font-size: 2.8rem;
     padding-bottom: 1.875rem;
-    font-family: 'Playfair Display', serif!important;
+    font-family: 'Prata', serif!important;
 }
 
 .t-h2 {
@@ -251,6 +251,7 @@ nav ul li a {
 
 .carousel-indicators {
     position: unset!important;
+    margin-top: 1.6rem;;
 }
 
 .carousel-indicators li {
@@ -261,27 +262,9 @@ nav ul li a {
     margin-right: 10px!important;
 }
 
-
   /***** ABOUT *****/
 
- 
 
-  /***** CONTACT *****/
-
-  #contact {
-      background: url(../img/contact-background.svg) no-repeat center bottom;
-      background-size: cover;
-  }
-
-  .sm-icons {
-      font-size: 2rem;
-      margin: .5rem;
-  }
-
-  .sm-list a:hover{
-      transition: opacity, .4s;
-      opacity: .4;
-  }
 
 
 /* ==========================================================================
