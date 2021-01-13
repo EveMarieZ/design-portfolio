@@ -130,7 +130,7 @@ h1, h2, h3 {
 }
 
 .t-h2 {
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
 .t-h3 {
@@ -212,9 +212,13 @@ a:hover {
 
 /****** HEADER ******/
 
-.hero-padding {
+#hero {
     margin-top: 6.25rem;
-    margin-bottom: 3.125rem;
+    margin-bottom: 6.25rem;
+}
+
+.header-gif-spacing {
+    margin-bottom: 3rem;
 }
 
 nav ul li {
@@ -229,6 +233,12 @@ nav ul li a {
     color: #000000!important;
 }
 
+/***** SECTIONS *****/
+
+.section-gif-spacing {
+    margin-bottom: 1.5rem;
+}
+
  /***** PROJECTS *****/
  
 .projects-heading {
@@ -241,6 +251,10 @@ nav ul li a {
 
 .projects-img {
     margin-bottom: 2.5rem;
+}
+
+.projects-end-spacing {
+    padding-bottom: 4rem;
 }
 
 .arrow-container {
@@ -264,7 +278,13 @@ nav ul li a {
 
   /***** ABOUT *****/
 
+.about-end-spacing {
+    padding-bottom: 3rem;
+}
 
+.about-text {
+    font-size: 0.75rem;
+}
 
 
 /* ==========================================================================
