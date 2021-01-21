@@ -99,6 +99,10 @@ textarea {
 
 /***** BASE STYLES *****/
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
 	font-family: 'Prata', serif;
 	font-family: 'Lato', sans-serif;
