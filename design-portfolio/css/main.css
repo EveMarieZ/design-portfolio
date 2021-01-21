@@ -134,7 +134,7 @@ h1, h2, h3 {
 }
 
 .t-h3 {
-    font-size: 1.2rem;
+    font-size: 1.7rem;
 }
 
 p {
@@ -236,7 +236,7 @@ a:hover {
 
 #hero {
     margin-top: 6.25rem;
-    margin-bottom: 6.25rem;
+    margin-bottom: 10rem;
 }
 
 .header-gif-spacing {
@@ -264,7 +264,7 @@ nav ul li a {
  /***** PROJECTS *****/
  
 .projects-heading {
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
 }
 
 .projects-text {
@@ -308,6 +308,12 @@ nav ul li a {
     font-size: 0.75rem;
 }
 
+
+/***** FOOTER *****/
+
+.footer-text {
+    font-size: 0.75rem;
+}
 
 /* ==========================================================================
    Helper classes
