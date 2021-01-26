@@ -220,20 +220,20 @@ a:hover {
 
 /****** COLORS ******/
 
-.bg-shocking-pink {
-    background-color:#FF69EB;
+.shocking-pink {
+    color:#FF69EB;
 }
-.bg-persian-pink {
-    background-color:#FF86C8;
+.persian-pink {
+    color:#FF86C8;
 }
-.bg-salmon-pink {
-    background-color:#FFA3A5;
+.salmon-pink {
+    color:#FFA3A5;
 }
-.bg-mellow-apricot {
-    background-color:#FFBF81;
+.mellow-apricot {
+    color:#FFBF81;
 }
-.bg-mustard {
-    background-color:#FFDC5E;
+.mustard {
+    color:#FFDC5E;
 }
 
 /****** HEADER ******/
@@ -298,8 +298,27 @@ nav ul li a {
     width: 10px!important;
     height: 10px!important;
     border-radius: 50%;
-    background-color: #FF86C8!important;
     margin-right: 10px!important;
+}
+
+.bg-shocking-pink li {
+    background-color:#FF69EB!important;
+}
+
+.bg-persian-pink li {
+    background-color:#FF86C8!important;
+}
+
+.bg-salmon-pink li {
+    background-color:#FFA3A5!important;
+}
+
+.bg-mellow-apricot li {
+    background-color:#FFBF81!important;
+}
+
+.bg-mustard li {
+    background-color:#FFDC5E!important;
 }
 
   /***** ABOUT *****/
