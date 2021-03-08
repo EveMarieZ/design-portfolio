@@ -101,6 +101,7 @@ textarea {
 
 html {
     scroll-behavior: smooth;
+    font-size: 1.1rem;
 }
 
 #about, #services, #portfolio, #contact{
